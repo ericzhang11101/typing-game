@@ -1,0 +1,12 @@
+.overlay{
+    position: absolute;
+    height: 7rem;
+    width: 22rem;
+    /* background-color: red; */
+    border: 1px solid black;
+    background-color: #EEEDE7;
+    margin-left: -25rem;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+}

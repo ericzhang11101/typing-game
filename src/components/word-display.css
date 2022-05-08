@@ -1,0 +1,24 @@
+.word-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1rem;
+
+    flex-wrap: wrap;
+
+}
+
+.word-container>p{
+    margin-right: 0.5rem;
+    height: 0.5rem;
+    font-size: 1.5rem;
+    /* -webkit-text-stroke: 1px black; */
+}
+
+.invalid-word{
+    color:#8a2440
+}
+
+.repeated-word{
+    color: #c4b93b
+}

@@ -1,0 +1,56 @@
+.rules-overlay{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.rules-container{
+    height: 70vh;
+    min-width: 50vw;
+    background: #EEEDE7;
+    border-radius: 2rem;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem;
+    box-sizing: border-box;
+}
+
+button{
+    height: 6rem;
+    font-size: 2rem;
+    width: 12rem;
+    border: 2px solid black;
+    background: #B9B7BD;
+    border-radius: 0.5rem;
+    font-family: "PT Mono";
+}
+
+ul{
+    width: 80%;
+    word-wrap: normal;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+li{
+    padding: 0.25rem;
+    padding-left: 2rem;
+}
+
+.red-text{
+    color: #8a2440;
+}
+
+.yellow-text{
+    color: #c4b93b;
+}

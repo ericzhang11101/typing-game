@@ -1,0 +1,125 @@
+.game-container{
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-container > div{
+    width: 100%;
+}
+
+.score-container{
+    height: 4rem;
+    background-color: white;
+    padding: 0 1rem;
+    font-size: 1rem;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background: #EEEDE7;
+}
+
+
+.typed-text{
+    height: 80%;
+}
+
+.text{
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 1rem;
+    color: black;
+
+}
+
+.typing-container{
+    height: 3rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    background: #B9B7BD;
+    font-family: "PT Mono";
+
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.game-end-overlay{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-end-container{
+    height: 70vh;
+    min-width: 50vw;
+    background: #EEEDE7;
+    border-radius: 2rem;
+    border: 2px solid black;
+    padding-top: 10vh;
+}
+
+.game-end-row{
+    display: grid;
+    /* grid-template-columns: 50% 40% 10%; */
+    grid-template-columns: 80% 10% 10%;
+
+    width: 90%;
+    height: 10vh;
+    margin-left: 5%;
+    align-items: center;
+    margin-bottom: 1vh;
+}
+
+.result-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-end-actions{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    height: 8vh;
+    align-items: center;
+}
+
+.game-end-actions>button{
+    height: 6rem;
+    font-size: 2rem;
+    width: 12rem;
+    border: 2px solid black;
+    background: #B9B7BD;
+    border-radius: 0.5rem;
+    font-family: "PT Mono";
+}
+
+.game-end-actions>button:hover{
+    border: 3px solid black;
+}
+
+.info-button{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: #EEEDE7;
+    font-size: 1rem;
+    font-family: "PT Mono";
+    font-weight: bold;
+}
